@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 export default function About() {
   return (
-    <section id="about" className="max-w-4xl mx-auto py-20 px-6">
+    <section id="about" className="bg-sky-100 dark:bg-gray-900 max-w-4xl mx-auto py-20 px-6">
       <motion.h2 
         className="text-4xl font-bold text-indigo-600 mb-8 text-center"
         initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 0.6 }}

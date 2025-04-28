@@ -8,7 +8,7 @@ const skills = [
 
 export default function Skills() {
   return (
-    <section id="skills" className="bg-sky-100 dark:bg-gray-900 py-20">
+    <section id="skills" className=" py-20">
       <div className="max-w-5xl mx-auto px-6">
         <motion.h2 
           className="text-4xl font-bold text-sky-500 text-center mb-10"

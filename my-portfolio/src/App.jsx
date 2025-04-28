@@ -14,11 +14,11 @@ function App() {
         <section id="hero">
           <Hero />
         </section>
+		<section id="about">
+          <About />
+        </section>
         <section id="skills">
           <Skills />
-        </section>
-        <section id="about">
-          <About />
         </section>
         <section id="projects">
           <Projects />

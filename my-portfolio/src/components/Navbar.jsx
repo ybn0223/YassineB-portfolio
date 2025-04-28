@@ -28,6 +28,7 @@ export default function Navbar() {
         </Link>
         <div className="space-x-6 text-lg flex items-center">
           <Link to="about" smooth={true} duration={500} className="hover:text-indigo-500 dark:hover:text-indigo-300 cursor-pointer">About</Link>
+		  <Link to="skills" smooth={true} duration={500} className="hover:text-indigo-500 dark:hover:text-indigo-300 cursor-pointer">Skills</Link>
           <Link to="projects" smooth={true} duration={500} className="hover:text-indigo-500 dark:hover:text-indigo-300 cursor-pointer">Projects</Link>
           <Link to="contact" smooth={true} duration={500} className="hover:text-indigo-500 dark:hover:text-indigo-300 cursor-pointer">Contact</Link>
           <button
