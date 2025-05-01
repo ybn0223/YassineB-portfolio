@@ -17,12 +17,12 @@ const ThemeButton = () => {
 	return ( <>
 	<button
             onClick={() => setDarkMode(!darkMode)}
-            className="w-8 h-8 ml-4 px-2 py-1 bg-sky-500 text-white rounded hover:bg-sky-600 dark:bg-indigo-500 dark:hover:bg-indigo-600"
+            className="w-10 h-10 ml-4 px-2 py-1 bg-sky-500 text-white rounded hover:bg-sky-600 dark:bg-indigo-500 dark:hover:bg-indigo-600"
           >
             {darkMode ?
-			<FontAwesomeIcon icon={faMoon} />
+			<FontAwesomeIcon className="fa-xl" icon={faMoon} />
 				:
-			<FontAwesomeIcon icon={faSun} />
+			<FontAwesomeIcon className="fa-xl" icon={faSun} />
 			}
           </button>
 	</> );

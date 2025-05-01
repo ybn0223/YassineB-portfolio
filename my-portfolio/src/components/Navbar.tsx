@@ -33,7 +33,7 @@ export default function Navbar() {
           to="hero"
           smooth={true}
           duration={500}
-          className="text-2xl font-bold text-sky-500 dark:text-indigo-300 cursor-pointer"
+          className="text-3xl font-bold text-sky-500 dark:text-indigo-300 cursor-pointer"
         >
           Yassine
         </Link>
@@ -52,9 +52,9 @@ export default function Navbar() {
           <ThemeButton />
           <button
             onClick={() => setDropdownOpen(!dropdownOpen)}
-            className="w-8 h-8 ml-4 px-2 py-1 bg-sky-500 text-white rounded hover:bg-sky-600 dark:bg-indigo-500 dark:hover:bg-indigo-600"
+            className="w-10 h-10 ml-4 px-2 py-1 bg-sky-500 text-white rounded hover:bg-sky-600 dark:bg-indigo-500 dark:hover:bg-indigo-600"
           >
-            <FontAwesomeIcon icon={!dropdownOpen ? faBars : faX} />
+            <FontAwesomeIcon className='fa-xl' icon={!dropdownOpen ? faBars : faX} />
           </button>
 
           {dropdownOpen && (
