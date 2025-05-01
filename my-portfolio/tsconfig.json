@@ -1,0 +1,11 @@
+{
+	"compilerOptions": {
+	  "target": "es5",
+	  "lib": ["dom", "es2015"],
+	  "jsx": "react",  // Add this line
+	  "module": "commonjs",
+	  "moduleResolution": "node",
+	  "strict": true,
+	  "esModuleInterop": true
+	}
+}
