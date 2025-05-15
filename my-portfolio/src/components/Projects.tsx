@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 
 const projects = [
   { title: "Portfolio Website", description: "Personal portfolio built with React and TailwindCSS.", source:"View on Github", link: "https://github.com/ybn0223/YassineB-portfolio" },
-  { title: "Country Quiz App", description: "Simple mobile game where you guess countries and capitals based on the flag.", source:"View app",  link: "https://groups.google.com/g/country-quiz-closed-testing-phase" },
+  { title: "Country Quiz App", description: "Simple mobile game where you guess countries and capitals based on the flag.", source:"View App",  link: "https://groups.google.com/g/country-quiz-closed-testing-phase" },
   { title: "Lego Figures School Project", description: "Fullstack application where you get a set of random lego figures and can put them in different lists.", source:"View on Github",  link: "https://github.com/ybn0223/Lmg-v2" },
 ];
 
