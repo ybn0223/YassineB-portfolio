@@ -5,9 +5,9 @@ import { motion } from "framer-motion";
 /* eslint-enable no-unused-vars */
 
 const projects = [
-  { title: "Portfolio Website", description: "Personal portfolio built with React and TailwindCSS.", link: "https://github.com/ybn0223/YassineB-portfolio" },
-  { title: "Country Quiz App", description: "Simple mobile game where you guess countries and capitals based on the flag.", link: "https://groups.google.com/g/country-quiz-closed-testing-phase" },
-  { title: "Lego Figures School Project", description: "Fullstack application where you get a set of random lego figures and can put them in different lists.", link: "https://github.com/ybn0223/Lmg-v2" },
+  { title: "Portfolio Website", description: "Personal portfolio built with React and TailwindCSS.", source:"View on Github", link: "https://github.com/ybn0223/YassineB-portfolio" },
+  { title: "Country Quiz App", description: "Simple mobile game where you guess countries and capitals based on the flag.", source:"View app",  link: "https://groups.google.com/g/country-quiz-closed-testing-phase" },
+  { title: "Lego Figures School Project", description: "Fullstack application where you get a set of random lego figures and can put them in different lists.", source:"View on Github",  link: "https://github.com/ybn0223/Lmg-v2" },
 ];
 
 export default function Projects() {
@@ -30,7 +30,7 @@ export default function Projects() {
               <h3 className="text-2xl font-bold text-gray-900 dark:text-gray-100 mb-2">{project.title}</h3>
               <p className="text-gray-600 dark:text-gray-300 mb-4">{project.description}</p>
               <a href={project.link} target="_blank" rel="noopener noreferrer" className="text-sky-500 dark:text-sky-400 hover:underline">
-                View on GitHub →
+                {project.source} →
               </a>
             </motion.div>
           ))}
