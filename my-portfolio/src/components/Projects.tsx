@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 const projects = [
   { title: "Portfolio Website", description: "Personal portfolio built with React and TailwindCSS.", source:"View on Github", link: "https://github.com/ybn0223/YassineB-portfolio" },
   { title: "Country Quiz App", description: "Simple mobile game where you guess countries and capitals based on the flag.", source:"View App",  link: "https://groups.google.com/g/country-quiz-closed-testing-phase" },
-  { title: "Exam Platform", description: "This was a school project that I made in a group of 5 people divided over front and back end and testing. It is an in-house exam training platform for the employees of the company B.Ignited", source:"View website",  link: "https://teach-me-ui.vercel.app/#/login" },
+  { title: "Exam Platform", description: "This was a school project that I made in a group of 5 people divided over front and back end and testing. It is an in-house exam training platform for the employees of the company B.Ignited. (username and password are \"user\")", source:"View website",  link: "https://teach-me-ui.vercel.app/#/login" },
 ];
 
 export default function Projects() {
