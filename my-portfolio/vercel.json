@@ -1,0 +1,15 @@
+{
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.yassinedev-portfolio.vercel.app"
+        }
+      ],
+      "destination": "https://yassinedev-portfolio.vercel.app/$1",
+      "permanent": true
+    }
+  ]
+}
