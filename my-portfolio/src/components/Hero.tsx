@@ -20,7 +20,7 @@ const Hero: React.FC = () => {
         animate={{ opacity: 1 }} 
         transition={{ delay: 0.4, duration: 0.6 }}
       >
-        A passionate Full-Stack Developer focused on building beautiful web applications and exploring cloud technologies.
+        A young and eager to learn Full-Stack Developer focused on building beautiful web applications and exploring cloud technologies.
       </motion.p>
       <motion.a 
         href="#projects"
