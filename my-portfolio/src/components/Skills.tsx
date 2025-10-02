@@ -1,14 +1,14 @@
 import React from "react";
-
-/* eslint-disable no-unused-vars */
 import { motion } from "framer-motion";
-/* eslint-enable no-unused-vars */
+import { useTranslation } from 'react-i18next';
 
 const skills = [
   "HTML", "CSS", "JavaScript", "TypeScript", "React", "Node.js", "Express", ".NET", "C#", "MongoDB", "SQL", "AWS", "Azure"
 ];
 
 export default function Skills() {
+  const { t } = useTranslation();
+
   return (
     <section id="skills" className=" py-20">
       <div className="max-w-5xl mx-auto px-6">
@@ -16,7 +16,7 @@ export default function Skills() {
           className="text-4xl font-bold text-sky-500 text-center mb-10"
           initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 0.6 }}
         >
-          Skills
+          {t('skills.title')}
         </motion.h2>
         <div className="flex flex-wrap justify-center gap-4">
           {skills.map((skill, index) => (

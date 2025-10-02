@@ -1,0 +1,90 @@
+export const nlTranslations = {
+  "nav": {
+    "home": "Home",
+    "about": "Over Mij",
+    "skills": "Vaardigheden",
+    "projects": "Projecten",
+    "contact": "Contact",
+    "blog": "Blog"
+  },
+  "hero": {
+    "greeting": "Hallo, ik ben Yassine",
+    "description": "Een jonge en leergierige Full-Stack Developer gericht op het bouwen van mooie webapplicaties en het verkennen van cloud technologieën.",
+    "cta": "Bekijk Mijn Werk"
+  },
+  "about": {
+    "title": "Over Mij",
+    "description": "Ik ben een student Computerprogrammeren aan de Artesis Plantijn Universiteit. Ik houd ervan om creativiteit en logica te combineren om impactvolle applicaties te bouwen. Buiten het coderen vind je me voetbal aan het spelen, aan het reizen, of de wereld aan het verkennen op mijn motorfiets."
+  },
+  "skills": {
+    "title": "Vaardigheden",
+    "subtitle": "Technologieën waarmee ik werk"
+  },
+  "projects": {
+    "title": "Projecten",
+    "subtitle": "Een selectie van mijn recente werk",
+    "items": {
+      "portfolio": {
+        "title": "Portfolio Website",
+        "description": "Persoonlijke portfolio gebouwd met React en TailwindCSS.",
+        "source": "Bekijk op Github"
+      },
+      "countryQuiz": {
+        "title": "Land Quiz App",
+        "description": "Eenvoudige mobiele game waarbij je landen en hoofdsteden raadt op basis van de vlag.",
+        "source": "Bekijk App"
+      },
+      "examPlatform": {
+        "title": "Examen Platform",
+        "description": "Dit was een schoolproject dat ik maakte in een groep van 5 mensen verdeeld over front en back end en testen. Het is een intern examentrainingsplatform voor de werknemers van het bedrijf B.Ignited. (gebruikersnaam en wachtwoord zijn \"user\")",
+        "source": "Bekijk website"
+      }
+    }
+  },
+  "contact": {
+    "title": "Contacteer Mij",
+    "subtitle": "Geïnteresseerd in samenwerken of heb je vragen? Aarzel niet om contact op te nemen!",
+    "name": "Naam",
+    "email": "E-mail",
+    "message": "Bericht",
+    "send": "Verstuur Bericht"
+  },
+  "blog": {
+    "title": "Stagereis",
+    "subtitle": "Volg mijn wekelijkse avonturen als Full-Stack Developer bij Yina Solutions. Van teammeetings tot mobiele app-ontwerpen, hier is wat ik leer en bouw.",
+    "readMore": "Lees Meer",
+    "backToAll": "Terug naar Alle Posts",
+    "backToBlog": "Terug naar Blog",
+    "tags": "Tags",
+    "previousPost": "Vorige Post",
+    "nextPost": "Volgende Post",
+    "postNotFound": "Post Niet Gevonden",
+    "postNotFoundDesc": "De blogpost die je zoekt bestaat niet.",
+    "noPosts": "Nog geen blogposts",
+    "noPostsDesc": "Kom binnenkort terug voor updates over mijn stagereis!",
+    "readTime": "min leestijd",
+    "week": "Week"
+  },
+  "footer": {
+    "rights": "Alle rechten voorbehouden."
+  },
+  "language": {
+    "switch": "Verander Taal",
+    "english": "English",
+    "dutch": "Nederlands"
+  },
+  "blogPosts": {
+    "week-2-mobile-app-designs": {
+      "title": "Mobiele App Ontwerpen en Teamsamenwerking",
+      "excerpt": "Diep duiken in mobiele app-ontwerp voor het lokale winkels platform. Het creëren van gebruikersflows, wireframes, en samenwerken met het team aan dit opwindende project.",
+      "tags": ["Mobiel Ontwerp", "UI/UX", "Teamsamenwerking", "Lokale Handel", "App Ontwikkeling"],
+      "content": "Deze week was ongelooflijk spannend omdat ik me voornamelijk heb gericht op het mobiele app-ontwerp voor Yina Solutions' nieuwe lokale handelsplatform. Het concept is fascinerend - het creëren van een unified app waar gebruikers lokale bakkerijen, slagers en andere winkels kunnen selecteren als hun voorkeurswinkel en van allemaal kunnen shoppen via één handige interface.\n\nIk begon de week met het onderzoeken van vergelijkbare apps en het analyseren van gebruikersgedragpatronen in de lokale handel. Het begrijpen van hoe mensen doorgaans interageren met lokale bedrijven hielp me meer intuïtieve gebruikersflows te creëren. De uitdaging was het ontwerpen van een ervaring die vertrouwd maar toch innovatief aanvoelt.\n\nHet ontwerpproces omvatte het maken van gedetailleerde wireframes voor de belangrijkste gebruikersreizen: onboarding, winkel selectie, producten bladeren, items toevoegen aan winkelwagen, en checkout. Ik richtte me zwaar op de winkel ontdekkingsfunctie, waarbij ik ervoor zorgde dat gebruikers gemakkelijk lokale bedrijven in hun omgeving kunnen vinden en ermee verbinden.\n\nEen van de meest interessante uitdagingen was het ontwerpen van het multi-vendor winkelwagensysteem. Hoe ga je om met bestellingen van meerdere winkels terwijl je de ervaring eenvoudig houdt? Ik stelde een oplossing voor waarbij bestellingen gegroepeerd worden per winkel, maar het checkout-proces verenigd blijft, waarbij levertijden en kosten voor elke verkoper duidelijk worden weergegeven.\n\nTeamsamenwerking is fantastisch geweest. Onze vrijdagse teammeetings zijn van onschatbare waarde geworden - iedereen deelt hun voortgang, uitdagingen, en krijgt feedback. Deze week presenteerde ik mijn eerste ontwerpen en kreeg geweldige input over het verbeteren van de navigatieflow en het visueler en aantrekkelijker maken van het winkelselectieproces.\n\nIk leer veel over het balanceren van gebruikersbehoeften met bedrijfsvereisten. De app moet aantrekkelijk zijn voor eindgebruikers terwijl het ook waarde biedt aan lokale bedrijfseigenaren die onze partners zullen zijn."
+    },
+    "week-1-onboarding-and-multilingual-features": {
+      "title": "Eerste Week: Team Briefing en Meertalige E-commerce",
+      "excerpt": "Het begin van mijn reis bij Yina Solutions! Van kantoor briefings tot het implementeren van meertalige functies op hun webshop, hier is hoe mijn eerste week verliep.",
+      "tags": ["Onboarding", "Meertalig", "E-commerce", "Teamstructuur", "Web Ontwikkeling"],
+      "content": "Wat een ongelofelijke eerste week bij Yina Solutions! Het beginnen van een nieuwe stage is altijd spannend, maar deze ervaring heeft mijn verwachtingen in alle opzichten overtroffen.\n\nDe week begon met een uitgebreide briefing over het nieuwe kantoorgebouw en de teamstructuur van het bedrijf. Het is indrukwekkend om te zien hoe doordacht alles georganiseerd is - van de collaboratieve werkruimtes tot de technologie-opstelling. Het begrijpen van de teamdynamiek en de rol van elke afdeling gaf me geweldig inzicht in hoe mijn werk als full-stack developer zal bijdragen aan het grotere plaatje.\n\nDe bedrijfscultuur viel me meteen op. Iedereen is benaderbaar, kundig, en oprecht geïnvesteerd in het helpen van nieuwe teamleden om te slagen. De kantooromgeving vindt de perfecte balans tussen professioneel zijn en het behouden van een startup-achtige energie waar innovatie gedijt.\n\nMijn eerste technische taak was helpen bij het implementeren van meertalige opties voor hun bestaande webshop. Dit was een perfecte introductie tot hun codebase en ontwikkelingspraktijken. Ik werkte aan zowel frontend als backend componenten - het updaten van de gebruikersinterface om taalwisseling te ondersteunen en ervoor zorgen dat de backend content in meerdere talen efficiënt kon serveren.\n\nDe meertalige functie bracht verschillende interessante uitdagingen met zich mee: het omgaan met tekstrichting voor verschillende talen, het beheren van vertalingen in de database, en ervoor zorgen dat de shop-ervaring soepel blijft ongeacht de geselecteerde taal. Ik leerde over internationalisatie best practices en hoe deze te implementeren in een productieomgeving.\n\nWat me het meest trof was hoe deze functie past bij Yina Solutions' visie om lokale handel toegankelijk te maken voor diverse gemeenschappen. Het ondersteunen van meerdere talen is niet alleen een technische functie - het gaat over inclusiviteit en ervoor zorgen dat iedereen verbinding kan maken met lokale bedrijven.\n\nHet vrijdagse teammeetingformaat is briljant. Iedereen krijgt de kans om te delen wat ze hebben bereikt, waar ze aan werken, en welke blokkades ze ondervinden. Het creëert transparantie en zorgt ervoor dat niemand te lang vastzit op problemen. De samenwerkingsgeest is oprecht, en je kunt zien dat kennisdeling hier diep gewaardeerd wordt.\n\nIk ben enthousiast over wat er nog komt, vooral het mobiele app-project waar ik in ga duiken. De combinatie van technische uitdagingen, gebruikerservaring ontwerp, en real-world impact maakt deze stage ongelooflijk lonend."
+    }
+  }
+};

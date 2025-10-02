@@ -1,10 +1,10 @@
 import React from "react";
-
-/* eslint-disable no-unused-vars */
 import { motion } from "framer-motion";
-/* eslint-enable no-unused-vars */
+import { useTranslation } from 'react-i18next';
 
 export default function Contact() {
+  const { t } = useTranslation();
+
   return (
     <section id="contact" className="py-20">
       <div className="max-w-3xl mx-auto text-center px-6">
@@ -12,13 +12,13 @@ export default function Contact() {
           className="text-4xl font-bold text-sky-500 mb-8"
           initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 0.6 }}
         >
-          Contact Me
+          {t('contact.title')}
         </motion.h2>
         <motion.p 
           className="text-gray-700 dark:text-gray-100 mb-6 text-lg"
           initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ delay: 0.3, duration: 0.6 }}
         >
-          Interested in working together or have any questions? Feel free to reach out!
+          {t('contact.subtitle')}
         </motion.p>
         <motion.div 
           className="flex justify-center space-x-6"

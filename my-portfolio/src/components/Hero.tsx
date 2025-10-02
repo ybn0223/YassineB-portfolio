@@ -1,9 +1,10 @@
 import { motion } from "framer-motion";
 import React from "react";
-
-// You can optionally define prop types if needed, but this component doesn't take any props, so you can leave it as it is.
+import { useTranslation } from 'react-i18next';
 
 const Hero: React.FC = () => {
+  const { t } = useTranslation();
+
   return (
     <section className="h-screen flex flex-col justify-center items-center text-center bg-white dark:bg-gray-900">
       <motion.h1 
@@ -12,15 +13,15 @@ const Hero: React.FC = () => {
         animate={{ opacity: 1, y: 0 }} 
         transition={{ duration: 0.6 }}
       >
-        Hello, I'm Yassine
+        {t('hero.greeting')}
       </motion.h1>
       <motion.p 
-        className="text-lg text-gray-700 max-w-md"
+        className="text-lg text-gray-700 dark:text-gray-300 max-w-md"
         initial={{ opacity: 0 }} 
         animate={{ opacity: 1 }} 
         transition={{ delay: 0.4, duration: 0.6 }}
       >
-        A young and eager to learn Full-Stack Developer focused on building beautiful web applications and exploring cloud technologies.
+        {t('hero.description')}
       </motion.p>
       <motion.a 
         href="#projects"
@@ -28,7 +29,7 @@ const Hero: React.FC = () => {
         whileHover={{ scale: 1.1 }}
         whileTap={{ scale: 0.95 }}
       >
-        View My Work
+        {t('hero.cta')}
       </motion.a>
     </section>
   );
