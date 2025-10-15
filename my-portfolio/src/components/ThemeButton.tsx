@@ -17,7 +17,7 @@ const ThemeButton = () => {
 	return ( <>
 	<button
             onClick={() => setDarkMode(!darkMode)}
-            className="w-7 ml-4"
+            className="w-7"
           >
             {darkMode ?
 			<FontAwesomeIcon icon={faMoon} />
