@@ -2,6 +2,42 @@ import { BlogPost } from '../components/Blog';
 
 export const blogPosts: BlogPost[] = [
   {
+    id: 'week-4-react-native-development',
+    title: 'Starting Development with React Native and .NET',
+    date: 'October 14, 2025',
+    readTime: '5 min read',
+    week: 4,
+    excerpt: 'The development phase begins! I’ve started building the mobile app using React Native and Expo, with .NET as the backend. A week full of coding, learning, and collaboration.',
+    tags: ['React Native', 'Expo', '.NET', 'App Development', 'Team Collaboration'],
+    content: `This week marked the exciting transition from design to development. After weeks of research, wireframing, and prototyping, I finally started building the mobile app using **React Native** with **Expo**, and connecting it to a **.NET backend**.
+
+Getting started with React Native has been both challenging and rewarding. The framework allows for smooth cross-platform development, and I’m beginning to understand how the components, navigation, and styling work together. Expo has made the setup process easier, especially when testing on different devices.
+
+On the backend side, I’ve been exploring how our .NET API will handle user authentication, shop data, and product information. It’s interesting to see how the frontend and backend teams coordinate — ensuring the endpoints align with the app’s needs.
+
+Our Friday meeting was, once again, a valuable moment for feedback. I showed a small prototype of the app’s home screen and received useful suggestions on improving the loading states and navigation flow. It’s great to see how collaboration helps refine both the technical and user experience aspects of the project.
+
+This week, I’ve also started diving deeper into best practices for structuring React Native projects, handling asynchronous data fetching, and managing state effectively. Every day feels like a new learning opportunity, and I’m motivated to see the app slowly come to life!`
+  },
+  {
+    id: 'week-3-finalizing-app-designs',
+    title: 'Finalizing Designs and Preparing for Development',
+    date: 'October 7, 2025',
+    readTime: '4 min read',
+    week: 3,
+    excerpt: 'Wrapping up the design phase! This week I finalized the mobile app UI in Figma, learned new plugins, and prepared the files for the upcoming development phase.',
+    tags: ['Figma', 'UI Design', 'App Prototyping', 'Team Feedback', 'Design Handoff'],
+    content: `This week has been all about putting the finishing touches on the mobile app design. After several iterations and rounds of feedback, I finalized the key screens and created a polished prototype ready for development.
+
+I spent a good amount of time in **Figma**, learning to use different **plugins** to speed up the workflow — from icon libraries to auto-layout and color management tools. These plugins made it easier to maintain consistency across screens and prepare design assets for export.
+
+One of the main focuses was improving the visual hierarchy and ensuring accessibility — making sure text sizes, contrast, and interactions feel intuitive on mobile devices. I also documented the main components and design patterns for the development handoff.
+
+During our **Friday team meeting**, I presented the final designs and got valuable feedback from both designers and developers. Everyone seemed excited to see the design come together, and it was great hearing suggestions about transitions, animations, and how some interactions could be implemented in code.
+
+Next week, I’ll officially begin the **development phase**, working with **React Native** and **.NET**. I’m excited (and a bit nervous) to shift from designing interfaces to actually building them, but I know it’ll be a great learning experience.`
+  },
+  {
     id: 'week-2-mobile-app-designs',
     title: 'Mobile App Designs and Team Collaboration',
     date: 'September 30, 2025',
